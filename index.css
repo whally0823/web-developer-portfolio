@@ -1,0 +1,64 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+* {
+	font-family: "Open Sans", sans-serif;
+}
+
+html {
+	scroll-behavior: smooth;
+	height: 100vh;
+}
+
+
+.navbar {
+	align-items: center;
+}
+
+a.navbar-brand {
+	
+	font-size: 14px;
+
+}
+
+#king {
+	width: 25%;
+}
+
+#projects {
+	background-image: url(./images/background.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+}
+
+small.text-muted {
+	font-style: italic;
+}
+
+img.card-img-top {
+	height: 200px;
+	width: 280px;
+}
+
+#contact-logo {
+	height: 40px;
+	width: 40px;
+}
+
+#full-stack {
+	color: DarkOrchid;
+}
+
+.backgroundGradient {
+        background: linear-gradient(to bottom, white, Black);
+        color: white;
+}
+
+@media (max-width: 1092px) {
+            .text-black-sm {
+                color: black
